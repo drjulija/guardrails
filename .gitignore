@@ -1,0 +1,21 @@
+# ignore .env files
+.env
+
+# ignore vscode dir
+.vscode/
+
+# ignore __pycache__
+__pycache__/
+
+# ignore all .DS_Store
+.DS_Store
+
+archive/
+
+nn_1024_100_25_2
+
+embeddings/
+
+end_time.pickle
+
+log.pickle
