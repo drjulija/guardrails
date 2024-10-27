@@ -45,18 +45,11 @@ For each sample, I generated embeddings using the [mGTE](https://arxiv.org/pdf/2
 
 I use Cross Entropy Loss and Stochastic Gradient Descent optimizaton. 
 
-Below figure shows the training and validation loss for each epoch during training.
-
-{{< figure src="/posts/guardrail/images/nn_1024_100_25_loss.png" attr="Training and validation loss during Neural Network training" align=center target="_blank" >}}
-
 After the training, the performance of the neural network was evaluated on Test Dataset.
 
 ## Results
 
 Here is the most interesting part.
-
-{{< figure src="/posts/guardrail/images/shock.gif" align=center target="_blank" >}}
-
 
 **Llama3 7B with ICL**
 
@@ -77,11 +70,6 @@ Below is the summary of the model perfomance:
 - Precision:  0.86
 - Recall:  0.96
 - F1 Score:  0.91
-
-
-Below, are confusion matrices for both classifiers. 
-
-{{< figure src="/posts/guardrail/images/cm.png" attr="Confusion matrices" align=center target="_blank" >}}
 
 In this scenario, the neural network model significantly outperformed the LLM-based classifier across all evaluation metrics. 
 
