@@ -16,11 +16,6 @@ model_path = 'Alibaba-NLP/gte-large-en-v1.5'
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModel.from_pretrained(model_path, trust_remote_code=True)
 
-
-#text = "Hello , i want to party"
-#utils.create_sentence_embedding(tokenizer, model, text)
-
-
 # --------------------------------------------------------------------
 # Create training dataset
 # --------------------------------------------------------------------
